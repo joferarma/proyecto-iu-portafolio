@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/portafolio.css">
+
+    <title>Fernando Arteaga</title>
+    <link rel="icon" href="assets/videojuegos.png">
+</head>
+
+<body>
+    <!-- Menu de Navegacion -->
+    <header class="header">
+        <div class="header__container container">
+            <a href="#inicio" class="header__logo">
+                <img src="assets/logo.png" alt="logo" width="60" height="60">
+                <span class="header__logo-text">Fernando Arteaga</span>
+            </a>
+
+            <button class="header__menu-btn" aria-label="Abrir menu" aria-expanded="false">
+                <span class="header__menu-bar"></span>
+                <span class="header__menu-bar"></span>
+                <span class="header__menu-bar"></span>
+            </button>
+
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#inicio" class="header__nav-link">Inicio</a></li>
+                    <li class="header__nav-item"><a href="#bio" class="header__nav-link">Biografia</a></li>
+                    <li class="header__nav-item"><a href="#experiencia" class="header__nav-link">Experiencia</a></li>
+                    <li class="header__nav-item"><a href="#habilidades" class="header__nav-link">Habilidades</a></li>
+                    <li class="header__nav-item"><a href="#contacto" class="header__nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seccion de Banner -->
+    <section id="inicio" class="propic" aria-labelledby="propic-heading">
+        <div class="propic__container container">
+            <div class="propic__content">
+                <h1 id="propic-heading" class="propic__title">¡Hola, soy <span
+                        class="propic__title--highlight">Fernando!
+                    </span>
+                </h1>
+                <p class="propic__subtitle">Amante del Diseño y Programacion Web.</p>
+                <div class="propic__pixel-avatar"><img src="assets/propic.jpg" id="propic"></div>
+                <a href="#contacto" class="propic__cta btn btn-primary">Contáctame</a>
+            </div>
+        </div>
+        <div class="propic__pixel-decoration"></div>
+    </section>
+
+    <!-- Seccion de Biografia -->
+    <section id="bio" class="bio section" aria-labelledby="bio-heading">
+        <div class="bio__container container">
+            <h2 id="bio-heading" class="section__title"> -- Sobre mi -- </h2>
+            <div class="bio__content">
+                <div class="bio__text">
+                    <p>¡Hola! Soy un apasionado desarrollador web con intereses por el diseño web y desarollo de video
+                        juego. Creo que la combinacion de
+                        tecnología y creatividad es la clave para construir experiencias digitales memorables. Mi sueño:
+                        crear mi propio video juego.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de Experiencia -->
+    <section id="experiencia" class="experience section" aria-labelledby="experience-heading">
+        <div class="experience__container container">
+            <h2 id="experience-heading" class="section__title">-- Experiencia Laboral --</h2>
+
+            <div class="experience__timeline">
+                <!-- Primera Seccion -->
+                <div class="experience__item">
+                    <div class="experience__dot"></div>
+                    <div class="experience__date">2024 - Presente</div>
+                    <div class="experience__content">
+                        <h3 class="experience__title">Desarrollador Backend</h3>
+                        <h4 class="experience__company">GameDev Studios</h4>
+                        <ul class="experience__description">
+                            <li>Experiencia en base de datos relacionales (MySQL).</li>
+                            <li>Conocimiento en seguridad informatica de API's.</li>
+                            <li>Conocimiento en el manejo de servidores, tanto locales com en la nube (Azure).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Segunda Seccion -->
+                <div class="experience__item">
+                    <div class="experience__dot"></div>
+                    <div class="experience__date">2023 - 2024</div>
+                    <div class="experience__content">
+                        <h3 class="experience__title">Desarrollador Frontend</h3>
+                        <h4 class="experience__company">GameDev Studios</h4>
+                        <ul class="experience__description">
+                            <li>Conocimientos y manejo de HTML, CSS, y Javascrpit.</li>
+                            <li>Tecnicas para mejorar la veolcidad de carga y la eficiencia de una pagina Web.</li>
+                            <li>Compresion de los principios de diseño para crear interfaces atractivas y faciles de
+                                usar.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Tercera Seccion -->
+                <div class="experience__item">
+                    <div class="experience__dot"></div>
+                    <div class="experience__date">2022 - 2023</div>
+                    <div class="experience__content">
+                        <h3 class="experience__title">Desarrollador Junior</h3>
+                        <h4 class="experience__company">Retro Studios</h4>
+                        <ul class="experience__description">
+                            <li>Mantenimiento de sitios web para clientes.</li>
+                            <li>Implementacion de diseños responsivos.</li>
+                            <li>Desarrollo de pequeños juegos promocionales.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de Habilidades -->
+    <section id="habilidades" class="skills section" aria-labelledby="skills-heading">
+        <div class="skills__container container">
+            <h2 id="skills-heading" class="section__title">-- Habilidades --</h2>
+
+            <div class="skills__categories">
+                <!-- Lenguajes -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Lenguajes</h3>
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--a1"></div>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--a2"></div>
+                            <span class="skills__name">C#</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--a3"></div>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--a4"></div>
+                            <span class="skills__name">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Frontend</h3>
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--b1"></div>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--b2"></div>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--b3"></div>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Backend</h3>
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--c1"></div>
+                            <span class="skills__name">Node.js</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--c2"></div>
+                            <span class="skills__name">SQL</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--c3"></div>
+                            <span class="skills__name">Javascrpit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Herramientas -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">Herramientas</h3>
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--d1"></div>
+                            <span class="skills__name">GitHub</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--d2"></div>
+                            <span class="skills__name">Unity</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--d3"></div>
+                            <span class="skills__name">Figma</span>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__icon skills__icon--d4"></div>
+                            <span class="skills__name">Excel</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion de Contacto -->
+    <section id="contacto" class="contact section" aria-labelledby="contact-heading">
+        <div class="contact__container container">
+            <h2 id="contact-heading" class="section__title">-- Contacto --</h2>
+
+            <div class="contact__content">
+                <div class="contact__info">
+                    <p class="contact__text">¿Tienes un proyecto en mente? ¡Hablemos sobre como puedo ayudarte a hacerlo
+                        realidad!</p>
+
+                    <div class="contact__details">
+                        <div class="contact__detail">
+                            <i class="fas fa-envelope contact__icon" aria-hidden="true"></i>
+                            <span class="contact__label">fernando.arteaga@ejemplo.com</span>
+                        </div>
+                        <div class="contact__detail">
+                            <i class="fas fa-phone contact__icon" aria-hidden="true"></i>
+                            <span class="contact__label">+504 3232-3232</span>
+                        </div>
+                        <div class="contact__detail">
+                            <i class="fas fa-map-marker-alt contact__icon" aria-hidden="true"></i>
+                            <span class="contact__label">Tegucigalpa, Honduras</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__social">
+                        <a href="https://github.com/joferarma" class="contact__social-link" aria-label="GitHub">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/joferarma" class="contact__social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="contact__social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://instagram.com/" class="contact__social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contact-form">
+                    <div class="contact__form-group">
+                        <label for="name" class="contact__form-label">Nombre</label>
+                        <input type="text" id="name" name="name" class="contact__form-input" required>
+                    </div>
+
+                    <div class="contact__form-group">
+                        <label for="email" class="contact__form-label">Email</label>
+                        <input type="email" id="email" name="email" class="contact__form-input" required>
+                    </div>
+
+                    <div class="contact__form-group">
+                        <label for="subject" class="contact__form-label">Asunto</label>
+                        <input type="text" id="subject" name="subject" class="contact__form-input" required>
+                    </div>
+
+                    <div class="contact__form-group">
+                        <label for="message" class="contact__form-label">Mensaje</label>
+                        <textarea id="message" name="message" class="contact__form-textarea" rows="5"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="contact__form-submit btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="assets/logo.png" alt="logo" width="40" height="40">
+                    <span class="footer__logo-text">Fernando Arteaga</span>
+                </div>
+
+                <nav class="footer__nav">
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item"><a href="#inicio" class="footer__nav-link">Inicio</a></li>
+                        <li class="footer__nav-item"><a href="#bio" class="footer__nav-link">Biografia</a></li>
+                        <li class="footer__nav-item"><a href="#experiencia" class="footer__nav-link">Experiencia</a>
+                        </li>
+                        <li class="footer__nav-item"><a href="#habilidades" class="footer__nav-link">Habilidades</a>
+                        </li>
+                        <li class="footer__nav-item"><a href="#contacto" class="footer__nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer__credits">
+                    <p class="footer__copyright">Desarrollado por <a href="https://github.com/joferarma"
+                            class="footer__github-link">@joferarma</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/portafolio.js"></script>
+</body>
+
+</html>
